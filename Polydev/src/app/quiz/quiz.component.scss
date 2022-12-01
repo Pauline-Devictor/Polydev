@@ -1,0 +1,32 @@
+.card {
+  margin: 5%;
+  border: black solid 1px;
+  border-radius: 5px 5px;
+}
+
+.question {
+  margin: 5px;
+  word-break: break-word;
+  text-align: center;
+}
+
+.responses {
+  display: flex;
+  justify-content: space-around;
+}
+
+.true {
+  background-color: lawngreen;
+  margin: 20px;
+  border-radius: 0 0 5px 5px;
+  flex: 1;
+  text-align: center;
+}
+
+.false {
+  background-color: red;
+  margin: 20px;
+  border-radius: 0 0 5px 5px;
+  flex: 1;
+  text-align: center;
+}
