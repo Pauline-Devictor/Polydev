@@ -1,15 +1,21 @@
+.blackBackground{
+  background-color: black;
+  color: beige;
+
+}
 nav
 {
-    padding: 10 px;
+    padding: 10px;
     margin: 10px;
-
-    background-color: #fff;
-    border: 1px solid #ccc;
     text-align: center;
-}
+  color:beige;
 
+}
 a
 {
-    display: block;
+  text-decoration: none;
     padding: 10px;
+}
+a:visited, a:hover {
+  color:beige;
 }

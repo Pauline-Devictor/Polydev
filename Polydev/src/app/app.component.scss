@@ -1,0 +1,11 @@
+.main{
+  display:flex;
+  flex-direction:column;
+}
+.changement{
+   padding: 2vh 2vw;
+   flex: 1;
+   width: 100%;
+   overflow:scroll;
+   overflow-x: hidden; /* Hide horizontal scrollbar */
+ }
